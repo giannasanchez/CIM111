@@ -1,0 +1,116 @@
+.about{
+  padding: 10px;
+}
+img{
+  width: 80%;
+}
+p{
+  color: black;
+}
+body{
+  background-color: white;
+  color:black;
+  text-decoration: none;
+}
+h1{
+  color:rgb(0, 122, 216);
+  background-color: yellow;
+  text-align: center;
+  padding: 40px;
+}
+h3{
+  background-color: rgb(0, 122, 216);
+  color: yellow;
+  padding: 12px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.grid-container4{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.grid-item5{
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-decoration: none;
+  padding: 10px;
+}
+.grid-item{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+}
+.grid-container2{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  color: black;
+}
+.grid-item2{
+  font-weight: bold;
+  font-size: 13pt;
+}
+.grid-item3{
+  font-style: italic;
+}
+.icon{
+  width: 10%;
+}
+.grid-container3{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(213,217,224);
+  text-align: center
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active)
+
+ul.topnav li a.active {background-color: ;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {float:inherit;}
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+and (-webkit-min-device-pixel-ratio: 3)
+body{color:white;}
+  ul.topnav li.right,
+  ul.topnav li {float: none;}
+h1{padding:80px; font-size: 50pt;}
+.grid-container4{display: inline; font-size: 10pt;}
+.grid-container{display:inline;}
+.grid-item{font-size: 20pt;}
+.grid-container2{display: inline;}
+.grid-item2{font-size:20pt; padding-left: 30px;}
+.grid-item3{padding-left:30px;}
+.grid-container3{display: inline;}
+}

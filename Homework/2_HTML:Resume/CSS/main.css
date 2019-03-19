@@ -1,0 +1,58 @@
+  h1{
+    background-color: rgb(71, 162, 237);
+    color: white;
+  }
+  body{
+    margin: 50px;
+  }
+  h3{
+    padding: 10px;
+    font-size: x-large;
+
+  }
+  a{
+    text-decoration: none;
+    font-weight:bold;
+    padding:10px;
+    background-color: rgb(71, 162, 237);
+    color: white;
+  }
+  #ad{
+    background-color: white;
+    color: rgb(71, 162, 237);
+    padding: 10px;
+  }
+  #pic{
+    border-radius: 20%;
+  }
+  #title{
+    font-size:x-large;
+  }
+  #role{
+    font-weight:bold;
+  }
+  #bio{
+    font-weight: bold;
+    color: rgb(71, 162, 237);
+  }
+  .name{
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .show{
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(71, 162, 237);
+  }
+
+  h3:hover{
+    background-color: rgb(71, 162, 237);
+    padding: 10px;
+    color: white;
+  }
+  #ad:hover{
+    background-color: rgb(71, 162, 237);
+    color: white;
+    padding: 10px;
+  }
